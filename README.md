@@ -4,9 +4,9 @@ This project implements a code generator that parses a draw.io XML model and gen
 
 ## Features
 
-- **Multi-Language Support**: Generates both Java classes and Python classes from a single XML model.
-- **Complex Model Handling**: Supports entities, relationships (1-to-1, 1-to-many), and inheritance ("is_a").
-- **CLI Interface**: Easy-to-use command-line interface for generation.
+- **Multi Language Support**: Generates both Java classes and Python classes from a single XML model.
+- **Complex Model Handling**: Supports entities, relationships (1 to 1, 1 to many), and inheritance.
+- **CLI Interface**: Easy to use command-line interface for generation.
 
 ## Project Structure
 
@@ -50,5 +50,5 @@ The tool will create two subdirectories in the output folder:
 For the generator to work correctly with your own draw.io models:
 - **Entities**: Use Rectangles. The label inside is the Class Name.
 - **Relationships**: Use Arrows.
-    - **Label**: `<fieldName> (N)` for 1-to-many lists, or just `<fieldName>` for 1-to-1.
+    - **Label**: `<fieldName> (N)` for 1 to many lists, or just `<fieldName>` for 1 to 1.
     - **Inheritance**: Use an arrow with an empty triangle head (Generalization) labeled `is_a`.
