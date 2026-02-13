@@ -2,6 +2,9 @@
 
 This project implements a code generator that parses a draw.io XML model and generates corresponding code in **Java**. It is designed to handle complex relationships, inheritance, composition and multiplicity.
 
+## Code Quality
+<<TO BE ADDED HERE>>
+
 ## What it does:
 
 - **Multi Language Support**: Generates both Java classes from a single XML model.
