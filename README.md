@@ -3,7 +3,7 @@
 This project implements a code generator that parses a draw.io XML model and generates corresponding code in **Java**. It is designed to handle complex relationships, inheritance, composition and multiplicity.
 
 ## Code Quality
-<<TO BE ADDED HERE>>
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Nadeem-Mohamed_2AA4-code-gen-bonus-2&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Nadeem-Mohamed_2AA4-code-gen-bonus-2)
 
 ## What it does:
 
@@ -40,7 +40,6 @@ python3 generator.py --model <path_to_xml> --output <output_directory>
 python3 generator.py --model examples/example2/model/diagram.xml --output examples/example2/src-gen
 ```
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Nadeem-Mohamed_2AA4-code-gen-bonus-2&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Nadeem-Mohamed_2AA4-code-gen-bonus-2)
 ### Generated Output
 
 The tool will create one subdirectory in the output folder:
