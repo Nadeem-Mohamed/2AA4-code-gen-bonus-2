@@ -6,14 +6,7 @@ This project implements a code generator that parses a draw.io XML model and gen
 
 - **Multi Language Support**: Generates both Java classes from a single XML model.
 - **Complex Model Handling**: Supports entities, relationships (1 to 1, 1 to many), and inheritance.
-
-## Project Structure
-
-- `generator.py`: Main script to parse an XML model and generate code.
-- `examples/`:
-    - `example1/`: Contains a simple university model and its generated code.
-    - `example2/`: Contains an expanded complex model (18+ entities) and its generated code.
-
+  
 ## Modeling Rules (Draw.io)
 
 For the generator to work correctly with your own draw.io models:
